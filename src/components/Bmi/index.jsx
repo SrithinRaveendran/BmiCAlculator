@@ -27,7 +27,7 @@ const BmiCalculator = () => {
   const storedheight = JSON.parse(localStorage.getItem('height'))
 
   const [height, setHeight] = useState(
-    storedheight === null ? 60 : storedheight,
+    storedheight === null ? 100 : storedheight,
   )
   const [weight, setWeight] = useState(
     storedweight === null ? 70 : storedweight,
